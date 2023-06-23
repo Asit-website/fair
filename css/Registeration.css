@@ -1,0 +1,156 @@
+.parent_registeration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+.left{
+    width: 50%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.faf_registeration1 h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 30px;
+}
+.faf_registeration1 p{
+    color: #7E8299;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+}
+.faf_registeration1 span{
+    font-size: 15px;
+    color: #3595F6;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.right{
+    width: 50%;
+    max-width: 100%;
+}
+.right img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    height: 100vh;
+    object-fit: cover;
+    object-position: bottom;
+}
+.faf_registeration1 form{
+    width: 100%;
+    margin-top: 20px;
+}
+.faf_registeration1 form input{
+    display: block;
+    width: 401px;
+    max-width: 100%;
+    height: 65px;
+    max-height: 100%;
+    outline: none;
+    border: 1px solid #E1E3EA;
+    border-radius: 6px;
+    margin: 12px 0px;
+    padding: 0px 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #5E6278;
+}
+.faf_registeration1 form input:hover{
+    border: 1.5px solid #3595F6;
+}
+.faf_copy{
+    position: fixed;
+    bottom: -3px;
+    color: #7E8299;
+    margin: 10px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+.faf_btn_primary{
+    width: 401px;
+    height: 65px;
+    max-width: 100%;
+    background-color: #3595F6;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 40px;
+}
+.faf_btn_primary:hover{
+    background-color: #000000;
+    transition: .5s;
+}
+.faf_login_anchor{
+    text-decoration: none;
+}
+@media only screen and (max-width:991px){
+    .parent_registeration{
+        flex-direction: column-reverse;
+    }
+    .right{
+        width: 100%;
+        max-width: 100%;
+    }
+    .faf_registeration1{
+        padding: 40px 0px;
+    }
+    .right img{
+      display: none;
+    }
+    .fa_regist{
+        width: 100%;
+    }
+    .faf_copy{
+        padding: 10px 0px;
+    }
+    .left{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:440px){
+  .faf_logo{
+    display: block;
+    margin: auto;
+  }
+  .faf_registeration1{
+    width: 100%;
+    padding: 40px 25px;
+  }
+  .faf_registeration1 h2{
+    text-align: center;
+    font-size: 25px;
+  }
+  .faf_registeration1 p{
+    text-align: center;
+  }
+  .faf_registeration1 form input{
+    max-width: 500px;
+    width: 100%;
+  }
+  .faf_btn_primary{
+   max-width: 500px;
+   width: 100%;
+  }
+  .faf_copy{
+    text-align: center;
+    padding: 10px 20px;
+    bottom: 0px;
+    font-size: 14px;
+  }
+}
